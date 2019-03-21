@@ -1,0 +1,43 @@
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#rc()
+
+" vundle
+Plugin 'VundleVim/Vundle.vim'
+
+" 我的vimrc
+Plugin 'wilon/vim-myvimrc'
+
+" 文件session
+Plugin 'wilon/vim-auto-session'
+
+" 基于vim自带的自动补全，不是最好但是很快
+Plugin 'vim-scripts/AutoComplPop'
+
+" ctrlp快速查找文件
+let g:ctrlp_newcache = 1
+let g:ctrlp_cache_dir = '~/.vim/cache/ctrlp'
+let g:ctrlp_use_caching = 1
+let g:ctrlp_working_path_mode = 0
+Bundle 'ctrlpvim/ctrlp.vim'
+
+" tab键增强
+" let g:SuperTabRetainCompletionType = 3
+" let g:SuperTabDefaultCompletionType = "<C-X><C-N>"    " 默认补全方式
+Plugin 'ervandew/supertab'
+
+" 自动更改删除括号
+Plugin 'tpope/vim-surround'
+
+" 自动增加括号
+Plugin 'jiangmiao/auto-pairs'
+
+" 小提示
+let g:vim_tip_lang = 'skywind3000'
+let g:vim_tip_frequency = 0.1
+Plugin 'wilon/vim-tips'
+
+" ------
+filetype plugin indent on
+let g:ctrlp_use_caching = 1

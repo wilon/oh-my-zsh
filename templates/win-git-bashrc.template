@@ -1,0 +1,4 @@
+export GOROOT=C:\Go\                        # go 安装目录
+export GOPATH=$HOME/go                      # go 工作目录
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin   # go 执行二进制文件目录
+PROMPT_COMMAND='history -a'                 # 记录终端日志

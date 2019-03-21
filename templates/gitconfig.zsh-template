@@ -1,0 +1,18 @@
+[user]
+    name = weilong
+    email = wilonx@163.com
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[alias]
+    bak = reset --hard HEAD~1
+    ll = log --graph
+    ci = commit
+    st = status
+    co = checkout
+    b = branch
+[credential]    # https认证，输入用户名密码且不明文保存，有效期6h; win-git 安装时需选上允许credential，http://t.cn/RECNQ5r
+    helper = cache
+    helper = cache --timeout 21600
+

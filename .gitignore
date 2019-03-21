@@ -1,0 +1,14 @@
+# custom files
+custom/
+!custom/plugins/example
+!custom/example.zsh
+
+# temp files directories
+cache/
+log/
+
+wget-log
+
+*.log
+
+.zsh_history*
